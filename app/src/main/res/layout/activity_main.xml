@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="DISPLAY" />
+            android:text="@string/display" />
 
         <EditText
             android:id="@+id/editTextInput"
@@ -24,7 +24,7 @@
             android:layout_weight="4"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Enter something" />
+            android:text="@string/enter_something" />
 
     </LinearLayout>
 
@@ -32,6 +32,15 @@
         android:id="@+id/textViewDisplay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Display what user types" />
+        android:text="@string/display_what_user_types" />
+
+    <ToggleButton
+        android:id="@+id/toggleButtonEnabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/togglebutton"
+        android:textOff="@string/disabled"
+        android:textOn="@string/enabled" />
+
 
 </LinearLayout>
